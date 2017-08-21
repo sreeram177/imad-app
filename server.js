@@ -18,7 +18,7 @@ app.get('/article-two',function(req,res){
 });
 
 app.get('/article-three',function(req,res){
-   res.send("Article2 is requested. Will be served shortly");
+   res.send("Article3 is requested. Will be served shortly");
 });
 
 app.get('/ui/style.css', function (req, res) {
